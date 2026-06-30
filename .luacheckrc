@@ -3,7 +3,7 @@ allow_defined_top = true
 
 globals = {
 	"missions",
-	"minetest"
+	"core", "minetest",
 }
 
 read_globals = {
@@ -12,7 +12,7 @@ read_globals = {
 	table = {fields = {"copy", "getn"}},
 	"call",
 
-	-- Minetest
+	-- Luanti
 	"vector", "ItemStack",
 	"dump", "VoxelArea",
 
